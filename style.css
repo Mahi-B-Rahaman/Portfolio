@@ -1,0 +1,104 @@
+body {
+    background-color: #23263a;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #12151d;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#b1, #b2, #b3 {
+    height: 30px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-right: 10px;
+}
+
+#b1 {
+    color: green;
+}
+
+#b3 {
+    width: 95px;
+    color: black;
+    background-color: aliceblue;
+}
+
+#b1:hover, #b2:hover, #b3:hover {
+    background-color: lightgray;
+    height: 35px;
+    width: 75px;
+}
+
+#b3:hover {
+    width: 100px;
+}
+
+.main_top {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; /* Ensures content stays inside */
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensures the background covers fully */
+}
+
+.circle {
+    position: absolute;
+    top: 120px; /* Adjust as needed */
+    left: 30px; /* Adjust as needed */
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, #07078e, #bf3a3a); /* Gradient border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#mainPara {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.about{
+    background-color: #12151d;
+    height: 300px;
+    width: 40%;
+    margin: 25px 0 0 450px;
+    padding: 5px 5px 25px 25px;
+    justify-content: center;
+}
+#contact{
+
+    background-color: darkslateblue;
+    font-size: 20px;
+    height: 30px;
+    width: 120px ;
+    padding: 10px 0 0 5px ;
+}
+
+
