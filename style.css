@@ -47,24 +47,24 @@ header {
     position: relative;
     height: 600px;
     width: 100%;
-    overflow: hidden; /* Ensures content stays inside */
+    overflow: hidden; 
 }
 
 .bg {
     height: 100%;
     width: 100%;
-    object-fit: cover; /* Ensures the background covers fully */
+    object-fit: cover; 
 }
 
 .circle {
     position: absolute;
-    top: 120px; /* Adjust as needed */
-    left: 30px; /* Adjust as needed */
+    top: 120px; 
+    left: 30px; 
     height: 230px;
     width: 230px;
     border-radius: 50%;
     padding: 5px;
-    background: linear-gradient(135deg, #07078e, #bf3a3a); /* Gradient border */
+    background: linear-gradient(135deg, #07078e, #bf3a3a);  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +118,7 @@ header {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     justify-content: center;
     align-items: center;
