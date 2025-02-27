@@ -23,7 +23,7 @@ header {
     border-radius: 50px;
     background-color: transparent;
     margin-right: 10px;
-    transition: all 0.3s ease;
+
 }
 
 #b1 {
@@ -33,20 +33,19 @@ header {
     color: white;
 }
 #b3 {
-    width: 95px;
+    width: 85px;
     color: black;
     background-color: aliceblue;
 }
 
-#b1:hover, #b2:hover, #b3:hover {
+#b1:hover, #b2:hover {
     background-color: lightgray;
-    height: 35px;
-    width: 75px;
+    height: 30px;
+    width: 70px;
+    transition: all 0.3s ease;
 }
 
-#b3:hover {
-    width: 100px;
-}
+
 
 .main_top {
     position: relative;
@@ -175,14 +174,16 @@ footer {
     .main_top {
         height: 400px;
     }
-    #b1, #b2{
+    #b1, #b2 {
         height: 25px;
-        width: 65px;
+        width: 60px;
         border-radius: 50px;
         background-color: transparent;
-        margin-right: 0;
-        transition: all 0.3s ease;
+        margin-right: 5px;
+
     }
+
+
     .circle {
         top: 80px;
         left: 50%;
@@ -191,7 +192,7 @@ footer {
         width: 180px;
     }
 
-  #mainPara {
+    #mainPara {
         top: 220px;
         left: 10%;
         right: 10%;
@@ -207,6 +208,9 @@ footer {
     .projects-grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     }
+
+
+
 }
 
 @media screen and (max-width: 480px) {
